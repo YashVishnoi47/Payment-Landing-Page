@@ -1,0 +1,63 @@
+@media screen and (max-width:870px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-1 span{
+        display: flex;
+        flex-direction: row;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+
+@media screen and (max-width:400px) {
+    .icons{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        
+    }
+}
+
+
+
+@media screen and (max-width:350px){
+    .icons{
+        display: none;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right{
+        position: relative;
+        top: 80px;
+    }
+}

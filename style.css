@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: auto;
+    border-bottom: 2px solid black;
+    height: 50px;
+}
+
+
+
+.logo{
+    font-family: Briem Hand;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+
+
+.icons a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+
+.icons a:hover{
+    color: rgb(59, 59, 59);
+    border-bottom: 1px solid black;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+
+
+
+.nav-butn{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 2px;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+.nav-butn:hover{
+    background-color: rgb(14, 13, 13);
+}
+
+
+
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+    cursor: default;
+}
+
+.hero p {
+    color: rgb(104, 103, 103);
+}
+
+
+
+/* cards--- */
+
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    max-width: 1300px;
+    margin: auto;
+    gap: 80px;
+    margin-top: 80px;
+    cursor: default;
+}
+
+.card-1 span{
+    font-weight: 900;
+    font-size: 25px;
+    margin-left: 4px;
+
+}
+
+.card-1{
+    /* max-width: 180px; */
+    width: 180px;
+    height: 220px;
+    /* border: 2px solid black; */
+    
+}
+
+
+.card-1 .pay-butn{
+    width: 175px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.card-1 ul{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.card-1 p{
+    /* font-size: 10px; */
+    color: gray;
+    margin-bottom: 8px;
+}
+
+
+.card-1 ul li{
+    color: gray;
+}
+
+
+.hero-2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* border: 2px solid black; */
+    max-width: 720px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.Faqs{
+    width: 100%;
+}
+
+
+
+.hero-2 h1{
+    margin-bottom: 30px;
+}
+
+.ques {
+    display: flex;
+    flex-direction: column;
+    gap: 25px ;
+}
+
+
+.ques p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid black; */
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(238, 233, 233);
+    padding: 5px;
+}
+
+
+.line{
+    height: 2px;
+    background-color: black;
+}
+
+
+/* footer */
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 200px;
+    border-top: 2px solid black;
+    padding-top: 15px;
+}
+
+
+.footer .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.footer .right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.footer .right .first {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: grey;
+    cursor: pointer;
+}
+
+
+.footer .right .first span{
+    color: black;
+}
+
+.left p{
+    cursor: pointer;
+    font-weight: bolder;
+    font-family: Briem Hand ;
+}
+
+.social-icons{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 8px;
+    cursor: pointer;
+}
