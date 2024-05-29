@@ -6,9 +6,9 @@ This project is a mini project focused on creating a pricing page for a product 
 <br>
 <br>
 <br>
-Responsive Design: The pricing page is designed to be fully responsive, ensuring optimal viewing and interaction across various devices and screen sizes.
+Responsive Design: The pricing page is designed to be fully responsive, ensuring optimal viewing and interaction across various devices and screen sizes.<br><br>
 <br>
-Clear Pricing Structure: The pricing page clearly outlines the features included in each pricing tier, making it easy for users to understand the value proposition of each option.
+Clear Pricing Structure: The pricing page clearly outlines the features included in each pricing tier, making it easy for users to understand the value proposition of each option.<br><br>
 <br>
-Interactive Elements: Interactive elements such as hover effects or clickable buttons enhance user engagement and provide a seamless browsing experience.
+Interactive Elements: Interactive elements such as hover effects or clickable buttons enhance user engagement and provide a seamless browsing experience.<br><br>
 <br>
