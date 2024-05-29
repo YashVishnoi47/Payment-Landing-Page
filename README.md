@@ -3,7 +3,10 @@ Pricing Page Project
 Overview
 This project is a mini project focused on creating a pricing page for a product or service. The goal is to design an intuitive and visually appealing pricing layout that effectively communicates the features and costs of the offering.
 <br>
-Table of Contents <br>
+<br>
+<br>
+Table of Contents- <br>
+<br>
 Features <br>
 Installation<br>
 Usage<br>
