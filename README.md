@@ -5,16 +5,6 @@ This project is a mini project focused on creating a pricing page for a product 
 <br>
 <br>
 <br>
-Table of Contents- <br>
-<br>
-Features <br>
-Installation<br>
-Usage<br>
-Contributing<br>
-License<br>
-Features<br>
-<br>
-<br>
 <br>
 Responsive Design: The pricing page is designed to be fully responsive, ensuring optimal viewing and interaction across various devices and screen sizes.
 <br>
