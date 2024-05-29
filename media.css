@@ -61,3 +61,63 @@
         top: 80px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media.css */
+
+/* Responsive Navbar */
+@media (max-width: 350px) {
+    .navbar {
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+  
+    .navlogo {
+      display: none;
+    }
+  
+    .menu-toggle {
+      display: flex;
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 24px;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+    }
+  
+    .icons {
+      display: none; /* Initially hidden */
+      flex-direction: column;
+      position: absolute;
+      top: calc(100% + 10px);
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: white;
+      border: 1px solid #ccc;
+      padding: 10px;
+      z-index: 1;
+    }
+  
+    .navbar.open .icons {
+      display: flex; /* Show when .open class is present */
+    }
+  }
+  
